@@ -7,8 +7,12 @@ sap.ui.define([
 
   return Controller.extend("project1.controller.App", {
       onInit: function () {        
-        var oModel = new JSONModel("model/items.json");
-        this.getView().setModel(oModel);        
+        //var oModel = new JSONModel("webapp/model/items.json");
+        //this.getView().setModel(oModel);   
+        debugger;
+        var dataModel = this.getOwnerComponent().getModel("tableData");
+			  this.getView().setModel(dataModel, "DataModel");
+
       },
 
       onSelectionChange: function (oEvent) {

@@ -10,7 +10,7 @@
 
         <f:GridList id="gridList" 
         selectionChange="onSelectionChange"
-        items="{/items}" 
+        items="{path: 'navigationModel>/items'}" 
         class="sapUiResponsiveContentPadding">
         
         <f:GridListItem 
@@ -27,9 +27,9 @@
         <FlexItemData growFactor="1" shrinkFactor="0" id="FlexItemData"/>
         <!--  Don't shrink below minimum size. Fill space if available.  -->
         </layoutData>
-        <Image src="{ProductPicUrl}" width="8rem" class="sapUiSmallMarginEnd" id="ImageIcon" />
-        <Title text="{title}" wrapping="true" id="LineItemTitle"/>
-        <Label text="{subtitle}" wrapping="true" id="LineItemLabel"/>
+        <Image src="{navigationModel>ProductPicUrl}" width="8rem" class="sapUiSmallMarginEnd" id="ImageIcon" />
+        <Title text="{navigationModel>title}" wrapping="true" id="LineItemTitle"/>
+        <Label text="{navigationModel>subtitle}" wrapping="true" id="LineItemLabel"/>
 
         
         </VBox>

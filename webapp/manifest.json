@@ -14,7 +14,13 @@
       "id": "@sap/generator-fiori:basic",
       "version": "1.17.1",
       "toolsId": "85452677-bfa0-4a17-b9c5-75319f43045f"
-    }
+    },
+    "dataSources": {
+      "tableData_alias": {
+        "uri": "model/items.json",
+        "type": "JSON"
+      }
+    }    
   },
   "sap.ui": {
     "technology": "UI5",
@@ -53,6 +59,10 @@
         "settings": {
           "bundleName": "project1.i18n.i18n"
         }
+      },
+      "tableData": {
+        "type": "sap.ui.model.json.JSONModel",
+        "dataSource": "tableData_alias"
       }
     },
     "resources": {

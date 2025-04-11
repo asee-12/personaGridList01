@@ -6,8 +6,8 @@ sap.ui.define([
   "use strict";
 
   return Controller.extend("project1.controller.App", {
-      onInit: function () {
-        var oModel = new JSONModel("webapp/model/items.json");
+      onInit: function () {        
+        var oModel = new JSONModel("model/items.json");
         this.getView().setModel(oModel);        
       },
 

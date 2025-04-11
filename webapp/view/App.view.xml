@@ -1,0 +1,43 @@
+<mvc:View controllerName="project1.controller.App"
+    displayBlock="true"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+    xmlns:grid="sap.ui.layout.cssgrid"
+    xmlns:f="sap.f">
+
+    
+        <Panel id="panelForGridList" backgroundDesign="Transparent">
+
+        <f:GridList id="gridList" 
+        selectionChange="onSelectionChange"
+        items="{/items}" 
+        class="sapUiResponsiveContentPadding">
+        
+        <f:GridListItem 
+        detailPress="onDetailPress" 
+        press="onPress" id="GridListItem" 
+        highlight="Success"
+        type="Active">
+
+        <HBox height="100%" class="sapUiSmallMargin" alignItems="Center" id="HBox">
+
+        <VBox class="sapUiSmallMargin" id="VBox" height="100%" alignItems="Center">
+
+        <layoutData>
+        <FlexItemData growFactor="1" shrinkFactor="0" id="FlexItemData"/>
+        <!--  Don't shrink below minimum size. Fill space if available.  -->
+        </layoutData>
+        <Image src="{ProductPicUrl}" width="8rem" class="sapUiSmallMarginEnd" id="ImageIcon" />
+        <Title text="{title}" wrapping="true" id="LineItemTitle"/>
+        <Label text="{subtitle}" wrapping="true" id="LineItemLabel"/>
+
+        
+        </VBox>
+        </HBox>
+
+        </f:GridListItem>
+
+        </f:GridList>
+        </Panel>    
+
+</mvc:View>

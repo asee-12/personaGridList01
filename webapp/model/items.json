@@ -6,134 +6,14 @@
 			"subtitle": "Subtitle 1"
 		},
 		{
-			"ProductPicUrl": "test-resources/sap/ui/documentation/sdk/images/HT-1002.jpg",
+			"ProductPicUrl": "data:image/jpeg;base64,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",
 			"title": "Grid item title 2",
 			"subtitle": "Subtitle 2"
 		},
 		{
-			"ProductPicUrl": "test-resources/sap/ui/documentation/sdk/images/HT-1002.jpg",
+			"ProductPicUrl": "data:image/jpeg;base64,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",
 			"title": "Grid item title 3",
 			"subtitle": "Subtitle 3"
-		},
-		{
-			"ProductPicUrl": "test-resources/sap/ui/documentation/sdk/images/HT-1002.jpg",
-			"title": "Grid item title 4",
-			"subtitle": "Subtitle 4"
-		},
-		{
-			"ProductPicUrl": "test-resources/sap/ui/documentation/sdk/images/HT-1002.jpg",
-			"title": "Grid item title 5",
-			"subtitle": "Subtitle 5"
-		},
-		{
-			"ProductPicUrl": "test-resources/sap/ui/documentation/sdk/images/HT-1002.jpg",
-			"title": "Grid item title 6 Grid item title Grid item title Grid item title Grid item title Grid item title",
-			"subtitle": "Subtitle 6"
-		},
-		{
-			"ProductPicUrl": "test-resources/sap/ui/documentation/sdk/images/HT-1002.jpg",
-			"title": "Very long Grid item title that should wrap 7",
-			"subtitle": "This is a long subtitle 7"
-		},
-		{
-			"ProductPicUrl": "test-resources/sap/ui/documentation/sdk/images/HT-1002.jpg",
-			"title": "Grid item title B 8",
-			"subtitle": "Subtitle 8"
-		},
-		{
-			"ProductPicUrl": "test-resources/sap/ui/documentation/sdk/images/HT-1002.jpg",
-			"title": "Grid item title B 9 Grid item title B  Grid item title B 9 Grid item title B 9Grid item title B 9title B 9 Grid item title B 9Grid item title B",
-			"subtitle": "Subtitle 9"
-		},
-		{
-			"ProductPicUrl": "test-resources/sap/ui/documentation/sdk/images/HT-1002.jpg",
-			"title": "Grid item title B 10",
-			"subtitle": "Subtitle 10"
-		},
-		{
-			"ProductPicUrl": "test-resources/sap/ui/documentation/sdk/images/HT-1002.jpg",
-			"title": "Grid item title B 11",
-			"subtitle": "Subtitle 11"
-		},
-		{
-			"ProductPicUrl": "test-resources/sap/ui/documentation/sdk/images/HT-1002.jpg",
-			"title": "Grid item title B 12",
-			"subtitle": "Subtitle 12"
-		},
-		{
-			"ProductPicUrl": "test-resources/sap/ui/documentation/sdk/images/HT-1002.jpg",
-			"title": "Grid item title 13",
-			"subtitle": "Subtitle 13"
-		},
-		{
-			"ProductPicUrl": "test-resources/sap/ui/documentation/sdk/images/HT-1002.jpg",
-			"title": "Grid item title 14",
-			"subtitle": "Subtitle 14"
-		},
-		{
-			"ProductPicUrl": "test-resources/sap/ui/documentation/sdk/images/HT-1002.jpg",
-			"title": "Grid item title 15",
-			"subtitle": "Subtitle 15"
-		},
-		{
-			"ProductPicUrl": "test-resources/sap/ui/documentation/sdk/images/HT-1002.jpg",
-			"title": "Grid item title 16",
-			"subtitle": "Subtitle 16"
-		},
-		{
-			"ProductPicUrl": "test-resources/sap/ui/documentation/sdk/images/HT-1002.jpg",
-			"title": "Grid item title 17",
-			"subtitle": "Subtitle 17"
-		},
-		{
-			"ProductPicUrl": "test-resources/sap/ui/documentation/sdk/images/HT-1002.jpg",
-			"title": "Grid item title 18",
-			"subtitle": "Subtitle 18"
-		},
-		{
-			"ProductPicUrl": "test-resources/sap/ui/documentation/sdk/images/HT-1002.jpg",
-			"title": "Very long Grid item title that should wrap 19",
-			"subtitle": "This is a long subtitle 19"
-		},
-		{
-			"ProductPicUrl": "test-resources/sap/ui/documentation/sdk/images/HT-1002.jpg",
-			"title": "Grid item title B 20",
-			"subtitle": "Subtitle 20"
-		},
-		{
-			"ProductPicUrl": "test-resources/sap/ui/documentation/sdk/images/HT-1002.jpg",
-			"title": "Grid item title B 21",
-			"subtitle": "Subtitle 21"
-		},
-		{
-			"ProductPicUrl": "test-resources/sap/ui/documentation/sdk/images/HT-1002.jpg",
-			"title": "Grid item title B 22",
-			"subtitle": "Subtitle 22"
-		},
-		{
-			"ProductPicUrl": "test-resources/sap/ui/documentation/sdk/images/HT-1002.jpg",
-			"title": "Grid item title B 23",
-			"subtitle": "Subtitle 23"
-		},
-		{
-			"ProductPicUrl": "test-resources/sap/ui/documentation/sdk/images/HT-1002.jpg",
-			"title": "Grid item title B 24",
-			"subtitle": "Subtitle 24"
-		},
-		{
-			"ProductPicUrl": "test-resources/sap/ui/documentation/sdk/images/HT-1002.jpg",
-			"title": "Grid item title B 21",
-			"subtitle": "Subtitle 21"
-		},
-		{
-			"ProductPicUrl": "test-resources/sap/ui/documentation/sdk/images/HT-1002.jpg",
-			"title": "Grid item title B 22",
-			"subtitle": "Subtitle 22"
-		},
-		{
-			"ProductPicUrl": "test-resources/sap/ui/documentation/sdk/images/HT-1002.jpg",
-			"title": "Grid item title B 23",
-			"subtitle": "Subtitle 23"
 		}
 	]
 }
